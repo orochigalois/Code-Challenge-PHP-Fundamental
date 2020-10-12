@@ -1,7 +1,11 @@
 ## Assumption
-***Create a function that will return a boolean result as to whether the hand of cards returned by the above function contains a ‘straight’ or ‘straight flush’.***
+***1.Create a function that will return a boolean result as to whether the hand of cards returned by the above function contains a ‘straight’ or ‘straight flush’.***
 
 We can only return **a** boolean result, and **straight flush** always belongs to **straight**, thus we just need to write a function checking if it's a 'straight'.
+
+***2.Aces are high AND low.***
+
+Because of this^^, we can assume **Q K A 2 3** and **A 2 3 4 5** are also straight
 
 ## How to check me
 functions.php includes 2 functions:
