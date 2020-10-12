@@ -10,7 +10,7 @@ functions.php includes 2 functions:
 * `j()` (Task B, 183 chars)
 
 ## PHP CLI script
-Thie project use phpunit, please run 
+Note if your php is not installed under `/usr/bin/php` , then you need to update the first line in `dealer.php` 
 ```
 chmod +x dealer.php
 ./dealer.php
