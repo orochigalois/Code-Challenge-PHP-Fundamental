@@ -23,7 +23,7 @@ chmod +x dealer.php
 
 
 ## UnitTest
-Thie project use phpunit, please run 
+This project use phpunit, please run 
 ```
 ./vendor/bin/phpunit tests/FunctionTest.php
 ```
