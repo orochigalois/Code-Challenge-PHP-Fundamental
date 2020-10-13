@@ -14,7 +14,8 @@ functions.php includes 2 functions:
 * `j()` (Task B, 183 chars)
 
 ## PHP CLI script
-Note if your php is not installed under `/usr/bin/php` , then you need to update the first line in `dealer.php` 
+Note if your php is not installed under `/usr/bin/php` , then you need to update the first line in `dealer.php` .
+Please run these lines in terminal:
 ```
 chmod +x dealer.php
 ./dealer.php
@@ -23,7 +24,7 @@ chmod +x dealer.php
 
 
 ## UnitTest
-This project use phpunit, please run 
+This project is using phpunit, please run these lines in terminal:
 ```
 ./vendor/bin/phpunit tests/FunctionTest.php
 ```
